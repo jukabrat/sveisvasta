@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("backback.jpg"); /* fallback */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.79) 0%,rgba(0, 0, 0, 0.807) 100%), url("backback.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    background-position: 0px 50px;
+    scrollbar-color: black;
+    scroll-behavior: smooth;
+    background-color: rgb(255, 68, 0);
+}
+body::-webkit-scrollbar{
+    background-color: black;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+#nav-logo{
+    position: absolute;
+    left: 15px;
+    font-size: 22px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 55px;
+    font-size: 17px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .2s;
+    border-radius: 1px;
+}
+
+nav a:hover{
+    background-color: gray;
+}
+#nav-logo:hover{
+    background: none;
+}
+nav{
+    background-color: rgb(15,15,15);
+    height: 60px;
+    text-align: right;
+}
+.naslov h1{
+    color: orangered;
+    font-size: 90px;
+    margin-bottom: 0;
+}
+
+.naslov{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    margin-left: 120px;
+    width: fit-content;
+}
+.naslov p{
+    color: white;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.naslov u{
+    color: orangered;
+}
+#naslov-p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+select{
+    background-color: rgb(15,15,15);
+    color: white;
+    border-radius: 4px;
+    height: 25px;
+    margin-right: 50px;
+}
+#nav-logo-a-kategorije{
+    margin-right: 0;
+    background: none;
+}
+.kolica{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.kolica img{
+    width: 350px;
+    height: 350px;
+}
+.dva{
+    margin-top: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 200px;
+}
+.dva p{
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 40px;
+    background-color: rgb(15,15,15);
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+.dva .zasto {
+    width: 40%;
+}
+.dva .kako-naruciti{
+    width: 33%;
+    margin-left: 12%;
+    position: absolute;
+}
+.zasto, .kako-naruciti{
+    display: inline-block;
+}
+.dva h1{
+    text-align: center;
+}
+.suradnja{
+    background-color: rgb(15, 15, 15);
+    font-family: 'Quicksand', sans-serif;
+    border-bottom: 1px solid orangered;
+    margin-left: 0;
+}
+.email h1{
+    color: orangered;
+}
+.suradnja-naslov{
+    text-align: center;
+    color: orangered;
+}
+.suradnja-text h1{
+    text-align: center;
+    color: orangered;
+}
+.suradnja p{
+    color: orangered;
+    display: inline;
+    text-align: center;
+}
+.suradnja input{
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.pola2{
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 40%;
+}
+.polatext{
+    width: 40%;
+    margin-left:10%;
+    display: inline-block;
+    position: absolute;
+}
+.polatext-text{
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+}
+.polatext h1{
+    text-align: center;
+    color: orangered;
+    margin-top: 30px;
+}
+#email-input{
+    width: 350px;
+    margin-top: 5px;
+}
+#ime-firme{
+    width: 350px;
+    margin-top: 5px;
+}
+#br{
+    width: 350px;
+    margin-top: 5px;
+}
+.suradnja input{
+    background-color: gray;
+    border-radius: 5px;
+}
+#form-submit{
+    width: 80px;
+    height: 30px;
+    color: orangered;
+    transition: .1s;
+}
+#form-submit:hover{
+    border-radius: 10px;
+    border: 1px solid orangered;
+    cursor: pointer;
+}
+textarea{
+    resize: none;
+    background-color: gray;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+}
+
+textarea:hover{
+    caret-color: black;
+}
+textarea::placeholder{
+    color: rgb(67, 67, 67);
+    font-weight: 600;
+}
+.suradnja input::placeholder{
+    color: rgb(90, 90, 90);
+    font-weight: 600;
+}
+.onama{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Quicksand', sans-serif;
+}
+.onama h1{
+    margin-top: 200px;
+    border-bottom: 1px solid black;
+    width: fit-content;
+}
+.onama p{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+footer{
+    background-color: rgb(15, 15, 15);
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.footer-email, .footer-br{
+    display: inline-block;
+}
+footer{width: 100%; text-align: center;}
+
+.footer-email, .footer-br{
+    padding: 0px 20px 0px 20px;
+}
+
